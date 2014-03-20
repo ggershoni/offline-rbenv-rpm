@@ -1,6 +1,6 @@
 Name:     rbenv
 Version:  0.4.0
-Release:  1
+Release:  1%{?dist:%{dist}}
 Summary:  The rbenv program for running multiple Ruby instances.
 BuildArch: noarch
 License:  MIT
