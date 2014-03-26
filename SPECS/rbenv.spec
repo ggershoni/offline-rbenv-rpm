@@ -40,7 +40,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %post
 echo " "
-echo "rbenv have been installed in /opt/%{name}.  Please install rbenv-ruby packages you need and tell rbenv with version to use."
+echo "rbenv have been installed in /opt/%{name}.  Please install rbenv-ruby packages you need and tell rbenv which version to use."
 
 %files
 %dir /opt/%{name}-%{version}
