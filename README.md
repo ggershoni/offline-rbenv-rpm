@@ -1,20 +1,20 @@
-= offline-rbenv-rpm 
+# offline-rbenv-rpm 
 
 Create a stand alone RPM for rbenv so can be installed in prod envs.
 
 This RPM does not download anything from the Internet.  The idea is to allow you to install rbenv on a production environment where internet access is limited.
 
-== Building RPM 
+## Building RPM 
 
-=== Centos/RHEL 5.x
+### Centos/RHEL 5.x
 
-==== Useful sites
+#### Useful sites
 
 http://wiki.centos.org/HowTos/SetupRpmBuildEnvironment
 http://www.lamolabs.org/blog/164/centos-rpm-tutorial-1/
 http://www.lamolabs.org/blog/6837/centos-rpm-tutorial-part-3-building-your-own-rpm-of-jboss/
 
-==== Prepare
+#### Prepare
 
 Need to install the following packages to allow you to build RPMs:
 ```
@@ -38,7 +38,7 @@ cd offline-rbenv-rpm
 rpmbuild -ba SPECS/rbenv.spec
 ```
 
-== Install RPM
+## Install RPM
 
 ```
 wget --no-check-certificate https://github.com/ggershoni/offline-rbenv-rpm/raw/master/RPMS/noarch/rbenv-0.4.0-1.noarch.rpm
