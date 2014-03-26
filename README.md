@@ -46,3 +46,6 @@ rpmbuild -ba SPECS/rbenv.spec
 wget --no-check-certificate https://github.com/ggershoni/offline-rbenv-rpm/raw/master/RPMS/noarch/rbenv-0.4.0-1.noarch.rpm
 sudo yum install --nogpgcheck rbenv-0.4.0-1.noarch.rpm
 ```
+
+## TODO
+* Currently all under /opt... not good.  Need to structure so follows FSH.
