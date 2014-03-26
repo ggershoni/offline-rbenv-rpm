@@ -11,7 +11,9 @@ This RPM does not download anything from the Internet.  The idea is to allow you
 #### Useful sites
 
 http://wiki.centos.org/HowTos/SetupRpmBuildEnvironment
+
 http://www.lamolabs.org/blog/164/centos-rpm-tutorial-1/
+
 http://www.lamolabs.org/blog/6837/centos-rpm-tutorial-part-3-building-your-own-rpm-of-jboss/
 
 #### Prepare
