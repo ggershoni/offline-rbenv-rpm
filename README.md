@@ -6,9 +6,7 @@ This RPM does not download anything from the Internet.  The idea is to allow you
 
 ## Building RPM 
 
-### Centos/RHEL 5.x
-
-#### Useful sites
+### Useful sites
 
 http://wiki.centos.org/HowTos/SetupRpmBuildEnvironment
 
@@ -16,20 +14,22 @@ http://www.lamolabs.org/blog/164/centos-rpm-tutorial-1/
 
 http://www.lamolabs.org/blog/6837/centos-rpm-tutorial-part-3-building-your-own-rpm-of-jboss/
 
-#### Prepare
+### Prepare
 
 Need to install the following packages to allow you to build RPMs:
 ```
 yum install rpm-build redhat-rpm-config
 ```
+
+#### Centos/RHEL 5.x
+
 For EL5 you will also need:
 ```
 yum install buildsys-macros
 ```
-You may also want rpmdevtools for setting up new projects etc.  You will need to install EPEL repo first: 
-```
-yum install rpmdevtools
-```
+
+### Building RPM
+
 Building RPMs should never be done as root so:
 ```
 adduser rpmbuild
